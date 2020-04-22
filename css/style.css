@@ -1,0 +1,211 @@
+*,
+::after,
+::before {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 0px;
+}
+
+img {
+    vertical-align: middle;
+    border-style: none;
+}
+
+header {
+    background: transparent url(../images/banner.png) no-repeat 0% 0%;
+    height: 960px;
+}
+
+header .container {
+    width: 308px;
+    margin: 0 auto;
+    padding-top: 384px;
+    text-align: left;
+    color: #FFF;
+}
+
+.fontStyle {
+    font-size: 24px;
+    line-height: 42px;
+}
+
+header h1 {
+    font-size: 80px;
+    line-height: 94px;
+    color: #FFF;
+    margin-bottom: 32px;
+}
+
+header p {
+    width: 283px;
+    margin: 0 auto;
+    margin-bottom: 64px;
+}
+
+.socialLink,
+.workContent .row {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    justify-content: center;
+}
+
+.socialLink li {
+    margin-right: 16px;
+}
+
+.socialLink li:last-of-type {
+    margin-right: 0;
+}
+
+.about .container {
+    padding-top: 64px;
+    padding-bottom: 56px;
+    text-align: center;
+    color: #000;
+}
+
+h2.title {
+    font-size: 64px;
+    line-height: 75px;
+}
+
+.about img[alt="personalPhoto"] {
+    margin: 40px auto 24px;
+}
+
+.aboutContent p,
+.aboutContent ul li,
+.brandContent p {
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.aboutContent p.mb {
+    margin-bottom: 8px;
+}
+
+.aboutContent p.degree {
+    width: 411px;
+    margin: 0 auto;
+    line-height: 36px;
+}
+
+hr {
+    width: 384px;
+    border: 0.02rem solid #000;
+    margin: 32px auto 34px;
+}
+
+.aboutContent ul li:nth-of-type(2) {
+    margin: 32px 0;
+}
+
+.aboutContent ul li .redDot {
+    display: inline-block;
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    background: #891818;
+    margin-right: 16px;
+    vertical-align: middle;
+}
+
+.brand .container,
+.work .container {
+    padding-top: 64px;
+    padding-bottom: 160px;
+    text-align: center;
+}
+
+.brand .container,
+footer .container {
+    color: #FFF;
+    background: #000;
+}
+
+.brandContent h2.title {
+    margin: 16px auto 32px;
+}
+
+.brandContent>p:nth-of-type(1) {
+    margin: 16px auto 32px;
+}
+
+.brandContent>p:nth-of-type(n+2) {
+    width: 320px;
+    margin: 0 auto;
+    font-size: 18px;
+    line-height: 42px;
+    font-family: 'Noto Sans TC', sans-serif;
+}
+
+.brandContent>p:last-of-type {
+    margin-bottom: 48px;
+}
+
+.brandContent img[alt="brand_img1"] {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+
+.brandContent img[alt="brand_img2"],
+.brandContent img[alt="brand_img3"] {
+    display: inline-block;
+}
+
+.brandContent img[alt="brand_img2"] {
+    margin-right: 24px;
+}
+
+.work .container {
+    color: #000;
+    background: transparent url('../images/bg.png') no-repeat center 361px;
+    background-size: cover;
+}
+
+.workContent>p,
+.workContent .row>div>p {
+    font-size: 19px;
+    line-height: 42px;
+    font-family: 'Noto Sans TC', sans-serif;
+}
+
+.workContent>p {
+    width: 226px;
+    margin: 24px auto 48px;
+}
+
+.workContent .row>div:nth-of-type(2) {
+    margin: 0 24px;
+}
+
+.workContent .row>div>p {
+    margin: 16px auto 58px;
+    color: #FFF;
+}
+
+.workContent .row:last-of-type>div>p {
+    margin-bottom: 0;
+}
+
+footer .container {
+    padding: 64px 0 80px;
+    text-align: center;
+}
+
+.infoContent p {
+    font-size: 24px;
+    line-height: 36px;
+}
+
+.infoContent p:first-of-type {
+    margin: 16px 0;
+}
